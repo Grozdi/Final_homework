@@ -1,0 +1,42 @@
+textarea{
+    resize: none;
+    border: 2px solid limegreen;
+    border-radius: 0.5rem;
+}
+button {
+    border: 2px solid limegreen;
+    color: limegreen;
+    cursor:pointer;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+form{
+    display:flex;
+    align-items:center;
+    gap: 1rem;
+    margin-inline:auto;
+}
+main{
+    display:grid;
+    margin-block-start:1rem;
+    row-gap:1rem;
+}
+input {
+    border: 2px solid limegreen;
+    border-radius: 0.5rem;
+    color: orangered;
+    padding:0.5rem 0.1rem;
+}
+.forms{
+    display:grid;
+    min-height:100vh;
+    row-gap:1rem;
+}
+.forms :first-child{
+    align-self:end;
+}
+.forms :last-child {
+        align-self: start;
+    }

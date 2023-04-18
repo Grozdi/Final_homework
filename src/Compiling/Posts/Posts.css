@@ -1,0 +1,32 @@
+article {
+    border: 2px solid limegreen;
+    border-radius: 0.5rem;
+    max-width:50rem;
+    min-width:30rem;
+    margin-inline:auto;
+}
+.Post-author {
+    border: 2px solid limegreen;
+    color: limegreen;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+.Post-content {
+    border: 2px solid limegreen;
+    color: limegreen;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+.Post-likes {
+    border: 1px solid red;
+    color: orangered;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.5rem 1rem;
+}
